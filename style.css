@@ -94,6 +94,8 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         gap: 10px;
+        max-width: 750px;
+        margin: 0 auto; 
     }
     #testimonial-1{
         grid-column: span 2;
